@@ -10,8 +10,8 @@ git clone https://github.com/anilsoni007/html-web-httpd-server.git
 ```
 
 ## Step-2
+**move the content of dir html-web-httpd-server into /var/www/html document root directory**
 ```
-move the content of dir html-web-httpd-server into /var/www/html document root directory
 cd html-web-httpd-server/
 sudo cp -pr ./* /var/www/html
 sudo systemctl start httpd
